@@ -61,13 +61,13 @@ td > div {
   width: 100px;
   height: 100px;
   text-align: center;
-  font-size: 120px;
+  font-size: 75px;
 }
 
 .table {
   font-size: 100px;
   height: 150px;
   width: 150px;
-  font-family: "Courier New", Courier, monospace;
   pointer-events: all;
+  text-align:center;
 }
