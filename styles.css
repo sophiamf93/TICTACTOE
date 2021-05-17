@@ -40,6 +40,8 @@ table {
   padding-top: 3em;
   text-align: center;
   cursor: pointer; 
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 .top {
