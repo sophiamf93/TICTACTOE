@@ -1,12 +1,16 @@
-#board {
+/* #board {
   padding-top: 3em;
-  text-align: center;
+  text-align:center;
+  font-size:larger;
 }
 
-div.row > div {
-  float: left;
+.row > div {
+  float:left;
   height: 100px;
   width: 100px;
+  cursor: pointer;
+  line-height: 100px;
+  font-size: 75px;
 }
 
 .row {
@@ -30,4 +34,38 @@ div.row > div {
 
 #table:hover {
   cursor: pointer;
+}   */
+
+table {
+  padding-top: 3em;
+  text-align: center;
+  cursor: pointer; 
+}
+
+.top {
+  border-bottom: 1px solid black;
+}
+
+.middle {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.bottom {
+  border-top: 1px solid black;
+}
+
+td {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 120px;
+}
+
+.table button {
+  font-size: 100px;
+  height: 150px;
+  width: 150px;
+  font-family: "Courier New", Courier, monospace;
+  pointer-events: all;
 }
