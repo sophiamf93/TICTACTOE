@@ -46,7 +46,7 @@ table {
   border-bottom: 1px solid black;
 }
 
-.middle {
+.center {
   border-left: 1px solid black;
   border-right: 1px solid black;
 }
@@ -55,14 +55,14 @@ table {
   border-top: 1px solid black;
 }
 
-td {
+td > div {
   width: 100px;
   height: 100px;
   text-align: center;
   font-size: 120px;
 }
 
-.table button {
+.table {
   font-size: 100px;
   height: 150px;
   width: 150px;
